@@ -1,0 +1,28 @@
+/* App.css or your custom CSS file */
+
+.message-list {
+  text-align: center;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.message-box {
+  margin: 1rem;
+  box-shadow: #00000059 0 5px 15px;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.message-text {
+  font-size: 18px;
+}
+
+.message-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
